@@ -3,16 +3,17 @@
 Profile screen with Box layering: header background, circular avatar, and an overlay Card that overlaps the header.
 
 ## Requirements checklist
-- [ ] Box: background, foreground avatar (CircleShape), overlay Card
-- [ ] contentAlignment, align(...), offset(...) (or padding)
-- [ ] Modifiers: clip(CircleShape), offset, zIndex, shadow/elevation, aspectRatio or fixed size
-- [ ] At least 5 M3: Card, Icon, Button, FilledTonalButton, AssistChip, TopAppBar, Badge, Surface
+- [x] Box: background, foreground avatar (CircleShape), overlay Card
+- [x] contentAlignment, align(...), offset(...)
+- [x] Modifiers: clip(CircleShape), offset, zIndex, elevation (Card), aspectRatio
+- [x] At least 5 M3: Card, Icon, FilledTonalButton, OutlinedButton, AssistChip, TopAppBar, Surface
 
 ## Screenshots
-*(Add screenshots here.)*
+
+![Profile screen](screenshot.png)
 
 ## AI disclosure
-*(Disclose any use of AI tools.)*
+AI was used for project setup, debugging (e.g. fixing imports and API references), and README wording. The layout, structure, and implementation were done by me.
 
 ## How to run
 Open in Android Studio, sync Gradle, run on emulator or device.
